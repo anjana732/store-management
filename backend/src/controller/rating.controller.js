@@ -1,5 +1,5 @@
 // src/controllers/rating.controller.js
-const { Rating, Store } = require('../models');
+const { Rating, Store } = require('../model');
 
 exports.submitRating = async (req, res) => {
     const { store_id, rating } = req.body;

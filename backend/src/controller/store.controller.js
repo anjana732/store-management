@@ -1,5 +1,5 @@
 // src/controllers/store.controller.js
-const { Store, Rating } = require('../models');
+const { Store, Rating } = require('../model');
 
 exports.createStore = async (req, res) => {
     const { name, address, owner_id } = req.body;
